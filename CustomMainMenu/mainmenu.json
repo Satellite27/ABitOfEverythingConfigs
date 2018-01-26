@@ -1,0 +1,409 @@
+{
+    "images":
+    {
+		"modpack":
+		{
+            "image" : "mainmenu:ptext.png",
+            "posX" : -201,
+            "posY" : -160,
+            "width" : 380,
+            "height" : 45,
+            "alignment" : "center"
+		}
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : -100,
+            "posY" : 48,
+            "width" : 98,
+            "height" : 20,
+			"texture" : "mainmenu:shortbutton.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },       
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : 2,
+            "posY" : 48,
+            "width" : 98,
+            "height" : 20,
+			"texture" : "mainmenu:shortbutton.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },        
+        "mods":
+        {
+            "text" : "Mods",
+            "posX" : -100,
+            "posY" : 72,
+            "width" : 98,
+            "height" : 20,
+			"texture" : "mainmenu:shortbutton.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },	
+       		
+     	"changelog":
+        {
+            "text" : "Changelog",
+            "posX" : 2,
+            "posY" : 72,
+            "width" : 98,
+            "height" : 20,
+			"texture" : "mainmenu:shortbutton.png",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://pastebin.com/raw/7DAQ1x74"
+            }
+        },
+     	"discord":
+        {
+            "text" : "Discord",
+            "posX" : 2,
+            "posY" : 95,
+            "width" : 98,
+            "height" : 20,
+			"texture" : "mainmenu:shortbutton.png",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://discord.gg/3GWY5TM"
+            }
+        },
+		     
+		"patreon":
+        {
+            "text" : "Patreon",
+            "posX" : -100,
+            "posY" : 95,
+            "width" : 98,
+            "height" : 20,
+			"texture" : "mainmenu:shortbutton.png",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://patreon.com/ABitOfEverything"
+            }
+        },  	
+        "Credits":
+        {
+            "text" : "Credits",
+            "posX" : -100,
+            "posY" : 118,
+            "width" : 200,
+            "height" : 20,
+			"texture" : "mainmenu:longbutton.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "custom.credits"
+            }
+        },
+		"resourcepack":
+        {
+            "text" : "Download Resourcepack",
+            "posX" : -100,
+            "posY" : 142,
+            "width" : 200,
+            "height" : 20,
+			"texture" : "mainmenu:longbutton.png",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "http://bit.ly/ABOERP138"
+            }
+        },
+		"options":
+        {
+            "text" : "menu.options",
+            "posX" : -100,
+            "posY" : 166,
+            "width" : 200,
+            "height" : 20,
+			"texture" : "mainmenu:longbutton.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },        
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : -100,
+            "posY" : 190,
+            "width" : 200,
+            "height" : 20,
+			"texture" : "mainmenu:longbutton.png",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        "language":
+        {
+            "text" : "",
+            "posX" : -478,
+            "posY" : -125,
+            "width" : 20,
+            "height" : 20,
+			"texture" : "mainmenu:lang.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },       
+        "refresh":
+        {
+            "text" : "",
+            "posX" : -20,
+            "posY" : 0,
+            "width" : 20,
+            "height" : 20,
+			"alignment" : "top_right",
+            "texture" : "mainmenu:refresh.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }	
+    },
+    
+    "texts":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB",
+            "posX" : -105,
+            "posY" : -11,
+			"fontSize" : 1.0,
+            "color" : 15779620,
+			"hoverColor" : 15779620,
+            "alignment" : "bottom_right"
+        },
+		"forge":{
+			"text" : "Minecraft #mcversion#",
+            "posX" : 3,
+            "posY" : -26,
+			"fontSize" : 1.0,
+            "color" : 4770641,
+			"hoverColor" : 4770641,
+            "alignment" : "bottom_left"
+		},
+		"modsloaded":{
+			"text" : "#modsloaded# Mods Loaded",
+            "posX" : 3,
+            "posY" : -16,
+			"fontSize" : .8,
+            "color" : 2552550,
+			"hoverColor" : 2552550,
+            "alignment" : "bottom_left"
+		},
+		"modsactive":{
+			"text" : "#modsactive# Mods Active",
+            "posX" : 3,
+            "posY" : -8,
+			"fontSize" : .8,
+            "color" : 2552550,
+			"hoverColor" : 2552550,
+            "alignment" : "bottom_left"
+		},
+		"modpack":{
+			"text" : "A Bit Of Everything 1.4.0",
+            "posX" : 3,
+            "posY" : -35,
+			"fontSize" : 1.0,
+            "color" : 10635467,
+			"hoverColor" : 10635467,
+            "alignment" : "bottom_left"
+		},
+		"newsLine1":{
+			"text" : "",
+            "posX" : -150,
+            "posY" : 5,
+			"fontSize" : 1.3,
+			"color" : -1,
+			"hoverColor" : -1,
+            "alignment" : "top_right"
+		},
+		"newsLine2":{
+			"text" : "Update 1.4.0",
+            "posX" : -150,
+            "posY" : 19,
+			"fontSize" : 1.3,
+			"font" : "font:ascii.png",
+            "color" : -1,
+			"hoverColor" : -1,
+            "alignment" : "top_right"
+		},
+		"newsLine3":{
+			"text" : "+ Added WTF's Expedition",
+            "posX" : -150,
+            "posY" : 33,
+			"fontSize" : .8,
+            "color" : -1,
+			"hoverColor" : 13158400,
+            "alignment" : "top_right"
+		},
+		"newsLine4":{
+			"text" : "+ Added WTF's Expedition: Gameplay",
+            "posX" : -150,
+            "posY" : 42,
+			"fontSize" : .8,
+            "color" : -1,
+			"hoverColor" : 13158400,
+            "alignment" : "top_right"
+		},
+		"newsLine5":{
+			"text" : "+ Added WTF's Core",
+            "posX" : -150,
+            "posY" : 51,
+			"fontSize" : .8,
+            "color" : -1,
+			"hoverColor" : 13158400,
+            "alignment" : "top_right"
+		},
+		"newsLine6":{
+			"text" : "+ Added Growthcraft CE",
+            "posX" : -150,
+            "posY" : 60,
+			"fontSize" : .8,
+            "color" : -1,
+			"hoverColor" : 13158400,
+            "alignment" : "top_right"
+		},
+		"newsLine7":{
+			"text" : "+ Added Gregtech",
+            "posX" : -150,
+            "posY" : 69,
+			"fontSize" : .8,
+            "color" : -1,
+			"hoverColor" : 13158400,
+            "alignment" : "top_right"
+		},
+		"newsLine8":{
+			"text" : "+ Added TooManyGodDamnOres",
+            "posX" : -150,
+            "posY" : 78,
+			"fontSize" : .8,
+            "color" : -1,
+			"hoverColor" : 13158400,
+            "alignment" : "top_right"
+		},
+		"newsLine9":{
+			"text" : "+ Added Atum",
+            "posX" : -150,
+            "posY" : 87,
+			"fontSize" : .8,
+            "color" : -1,
+			"hoverColor" : 13158400,
+            "alignment" : "top_right"
+		},
+		"newsLine10":{
+			"text" : "+ Added Flans Mod",
+            "posX" : -150,
+            "posY" : 96,
+			"fontSize" : .8,
+            "color" : -1,
+			"hoverColor" : 13158400,
+            "alignment" : "top_right"
+		},
+		"newsLine10":{
+			"text" : "+ Added Flans Mod Content Packs",
+            "posX" : -150,
+            "posY" : 96,
+			"fontSize" : .8,
+            "color" : -1,
+			"hoverColor" : 13158400,
+            "alignment" : "top_right"
+		},
+		"newsLine11":{
+			"text" : "+ Added The Erebus",
+            "posX" : -150,
+            "posY" : 105,
+			"fontSize" : .8,
+            "color" : -1,
+			"hoverColor" : 13158400,
+            "alignment" : "top_right"
+		},
+		"newsLine12":{
+			"text" : "+ Added Chocolate Quest",
+            "posX" : -150,
+            "posY" : 114,
+			"fontSize" : .8,
+            "color" : -1,
+			"hoverColor" : 13158400,
+            "alignment" : "top_right"
+		},
+		"newsLine13":{
+			"text" : "+ Added Balkons Weapon Mod",
+            "posX" : -150,
+            "posY" : 122,
+			"fontSize" : .8,
+            "color" : -1,
+			"hoverColor" : 13158400,
+            "alignment" : "top_right"
+		},
+		"newsLine14":{
+			"text" : "+ Added Runic Dungeons",
+            "posX" : -150,
+            "posY" : 130,
+			"fontSize" : .8,
+            "color" : -1,
+			"hoverColor" : 13158400,
+            "alignment" : "top_right"
+		},
+		"newsLine15":{
+			"text" : "+ Added Roguelike Dungeons",
+            "posX" : -150,
+            "posY" : 138,
+			"fontSize" : .8,
+            "color" : -1,
+			"hoverColor" : 13158400,
+            "alignment" : "top_right"
+		},
+		"newsLine16":{
+			"text" : "",
+            "posX" : -150,
+            "posY" : 146,
+			"fontSize" : .8,
+            "color" : -1,
+			"hoverColor" : 13158400,
+            "alignment" : "top_right"
+		},
+		"newsLine17":{
+			"text" : "",
+            "posX" : -150,
+            "posY" : 154,
+			"fontSize" : .8,
+            "color" : -1,
+			"hoverColor" : 13158400,
+            "alignment" : "top_right"
+		}
+    },
+    
+    "other":
+    {
+		"background":
+		{
+			"image" : "mainmenu:background2.png",
+			"mode" : "fill"
+		}
+    }
+}

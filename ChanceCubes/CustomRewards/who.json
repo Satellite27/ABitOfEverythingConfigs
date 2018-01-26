@@ -1,0 +1,105 @@
+{
+  "who": {
+    "Chance": -70,
+    "Message": [
+      {
+        "message": "Who Dat Is!?",
+        "range": 4
+      },
+      {
+        "message": "[Wither] You know who dat is!",
+        "delay": 8,
+        "range": 4
+      }
+    ],
+    "Command": [
+      {
+        "command": "/summon WitherBoss",
+        "delay": 60
+      }
+    ]
+  },
+  "endest": {
+    "Chance": 0,
+    "Message": [
+      {
+        "message": "Who Dat Is!?",
+        "range": 4
+      },
+      {
+        "message": "[Endest Pearl] Void!",
+        "delay": 8,
+        "range": 4
+      }
+    ],
+    "Command": [
+      {
+        "command": "/summon Avaritia.EndestPearl",
+        "delay": 16
+      }
+    ]
+  },
+  "nuke": {
+    "Chance": -80,
+    "Message": [
+      {
+        "message": "Who Dat Is!?",
+        "range": 12
+      },
+      {
+        "message": "Tactical Nuke Incoming!",
+        "delay": 20,
+        "range": 12
+      }
+    ],
+    "Command": [
+      {
+        "command": "/summon AntimatterBombPrimed",
+        "command": "/summon ExtraPlanets.ExtraPlanetsNuclearBombPrimed",
+        "delay": 40 
+      }
+    ]
+  },
+  "vortex": {
+    "Chance": -99,
+	"isGiantCubeReward":true,
+	"Message": [
+	 {
+		"message": "Who Dat Is!?",
+		"range": 64
+	 },
+	 {
+		"message": "I hope this isn't near your base, because you have 400 ticks before stuff goes bye bye. Kappa",
+		"delay": 8,
+		"range": 64
+	 }
+	],
+	"Command": [
+	 {
+		"command": "/summon DraconicEvolution.EntityChaosEnergyVortex",
+		"delay": 400
+	 }
+	]
+  },
+    "redmattertroll": {
+    "Chance": -99,
+	"isGiantCubeReward":true,
+	"Message": [
+	 {
+		"message": "Who Dat Is!?",
+		"range": 64
+	 },
+	 {
+		"message": "I hope you backed up your server because you just hit the jackpot of a REDMATTER BOMB!",
+		"delay": 8,
+		"range": 5000
+	 }
+	],
+	"Command": [
+	 {
+		"command": "/tellraw @a {"text":"Only Kidding! Can't actually find the entity name for the red matter bomb so you're safe... for now ;)","color":"red"}",
+		"delay": 400
+	 }
+	]
+  }  
+ }

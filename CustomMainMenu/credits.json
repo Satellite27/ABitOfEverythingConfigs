@@ -1,0 +1,372 @@
+{
+    "images":
+    {
+		"modpack":
+		{
+            "image" : "mainmenu:ptext.png",
+            "posX" : -201,
+            "posY" : -160,
+            "width" : 380,
+            "height" : 45,
+            "alignment" : "center"
+		},
+		"test":
+		{
+            "image" : "mainmenu:box.png",
+            "posX" : -310,
+            "posY" : -105,
+            "width" : 615,
+            "height" : 200,
+            "alignment" : "center"
+		}
+    },
+    
+    "buttons":
+    {
+        "return":
+        {
+            "text" : "Back",
+            "posX" : -450,
+            "posY" : -125,
+            "width" : 98,
+            "height" : 20,
+			"texture" : "mainmenu:shortbutton.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mainmenu"
+            }
+        },
+        "language":
+        {
+            "text" : "",
+            "posX" : -478,
+            "posY" : -125,
+            "width" : 20,
+            "height" : 20,
+			"texture" : "mainmenu:lang.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },      
+        "refresh":
+        {
+            "text" : "",
+            "posX" : -20,
+            "posY" : 0,
+            "width" : 20,
+            "height" : 20,
+			"alignment" : "top_right",
+            "texture" : "mainmenu:refresh.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }	
+    },
+    
+    "texts":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB",
+            "posX" : -105,
+            "posY" : -11,
+			"fontSize" : 1.0,
+            "color" : 15779620,
+			"hoverColor" : 15779620,
+            "alignment" : "bottom_right"
+        },
+		"forge":{
+			"text" : "Minecraft #mcversion#",
+            "posX" : 3,
+            "posY" : -26,
+			"fontSize" : 1.0,
+            "color" : 4770641,
+			"hoverColor" : 4770641,
+            "alignment" : "bottom_left"
+		},
+		"modsloaded":{
+			"text" : "#modsloaded# Mods Loaded",
+            "posX" : 3,
+            "posY" : -16,
+			"fontSize" : .8,
+            "color" : 2552550,
+			"hoverColor" : 2552550,
+            "alignment" : "bottom_left"
+		},
+		"modsactive":{
+			"text" : "#modsactive# Mods Active",
+            "posX" : 3,
+            "posY" : -8,
+			"fontSize" : .8,
+            "color" : 2552550,
+			"hoverColor" : 2552550,
+            "alignment" : "bottom_left"
+		},
+		"modpack":{
+			"text" : "A Bit Of Everything 1.4.0",
+            "posX" : 3,
+            "posY" : -35,
+			"fontSize" : 1.0,
+            "color" : 10635467,
+			"hoverColor" : 10635467,
+            "alignment" : "bottom_left"
+		},
+		"newsLine1":{
+			"text" : "",
+            "posX" : -150,
+            "posY" : 5,
+			"fontSize" : 1.3,
+			"color" : -1,
+			"hoverColor" : -1,
+            "alignment" : "top_right"
+		},
+		"newsLine2":{
+			"text" : "Update 1.4.0",
+            "posX" : -150,
+            "posY" : 19,
+			"fontSize" : 1.3,
+			"font" : "font:ascii.png",
+            "color" : -1,
+			"hoverColor" : -1,
+            "alignment" : "top_right"
+		},
+		"newsLine3":{
+			"text" : "+ Added WTF's Expedition",
+            "posX" : -150,
+            "posY" : 33,
+			"fontSize" : .8,
+            "color" : -1,
+			"hoverColor" : 13158400,
+            "alignment" : "top_right"
+		},
+		"newsLine4":{
+			"text" : "+ Added WTF's Expedition: Gameplay",
+            "posX" : -150,
+            "posY" : 42,
+			"fontSize" : .8,
+            "color" : -1,
+			"hoverColor" : 13158400,
+            "alignment" : "top_right"
+		},
+		"newsLine5":{
+			"text" : "+ Added WTF's Core",
+            "posX" : -150,
+            "posY" : 51,
+			"fontSize" : .8,
+            "color" : -1,
+			"hoverColor" : 13158400,
+            "alignment" : "top_right"
+		},
+		"newsLine6":{
+			"text" : "+ Added Growthcraft CE",
+            "posX" : -150,
+            "posY" : 60,
+			"fontSize" : .8,
+            "color" : -1,
+			"hoverColor" : 13158400,
+            "alignment" : "top_right"
+		},
+		"newsLine7":{
+			"text" : "+ Added Gregtech",
+            "posX" : -150,
+            "posY" : 69,
+			"fontSize" : .8,
+            "color" : -1,
+			"hoverColor" : 13158400,
+            "alignment" : "top_right"
+		},
+		"newsLine8":{
+			"text" : "+ Added TooManyGodDamnOres",
+            "posX" : -150,
+            "posY" : 78,
+			"fontSize" : .8,
+            "color" : -1,
+			"hoverColor" : 13158400,
+            "alignment" : "top_right"
+		},
+		"newsLine9":{
+			"text" : "+ Added Atum",
+            "posX" : -150,
+            "posY" : 87,
+			"fontSize" : .8,
+            "color" : -1,
+			"hoverColor" : 13158400,
+            "alignment" : "top_right"
+		},
+		"newsLine10":{
+			"text" : "+ Added Flans Mod",
+            "posX" : -150,
+            "posY" : 96,
+			"fontSize" : .8,
+            "color" : -1,
+			"hoverColor" : 13158400,
+            "alignment" : "top_right"
+		},
+		"newsLine10":{
+			"text" : "+ Added Flans Mod Content Packs",
+            "posX" : -150,
+            "posY" : 96,
+			"fontSize" : .8,
+            "color" : -1,
+			"hoverColor" : 13158400,
+            "alignment" : "top_right"
+		},
+		"newsLine11":{
+			"text" : "+ Added The Erebus",
+            "posX" : -150,
+            "posY" : 105,
+			"fontSize" : .8,
+            "color" : -1,
+			"hoverColor" : 13158400,
+            "alignment" : "top_right"
+		},
+		"newsLine12":{
+			"text" : "+ Added Chocolate Quest",
+            "posX" : -150,
+            "posY" : 114,
+			"fontSize" : .8,
+            "color" : -1,
+			"hoverColor" : 13158400,
+            "alignment" : "top_right"
+		},
+		"newsLine13":{
+			"text" : "+ Added Balkons Weapon Mod",
+            "posX" : -150,
+            "posY" : 122,
+			"fontSize" : .8,
+            "color" : -1,
+			"hoverColor" : 13158400,
+            "alignment" : "top_right"
+		},
+		"newsLine14":{
+			"text" : "+ Added Runic Dungeons",
+            "posX" : -150,
+            "posY" : 130,
+			"fontSize" : .8,
+            "color" : -1,
+			"hoverColor" : 13158400,
+            "alignment" : "top_right"
+		},
+		"newsLine15":{
+			"text" : "+ Added Roguelike Dungeons",
+            "posX" : -150,
+            "posY" : 138,
+			"fontSize" : .8,
+            "color" : -1,
+			"hoverColor" : 13158400,
+            "alignment" : "top_right"
+		},
+		"newsLine16":{
+			"text" : "",
+            "posX" : -150,
+            "posY" : 146,
+			"fontSize" : .8,
+            "color" : -1,
+			"hoverColor" : 13158400,
+            "alignment" : "top_right"
+		},
+		"newsLine17":{
+			"text" : "",
+            "posX" : -150,
+            "posY" : 154,
+			"fontSize" : .8,
+            "color" : -1,
+			"hoverColor" : 13158400,
+            "alignment" : "top_right"
+		},
+		"patron1t":{
+			"text" : "$1 Patrons",
+            "posX" : -300,
+            "posY" : -100,
+			"fontSize" : 2,
+            "color" : -1,
+			"hoverColor" : 14831439,
+            "alignment" : "center"
+		},
+		"patron1":{
+			"text" : "web:http://94.23.210.224/1patrons.txt",
+            "posX" : -273,
+            "posY" : -80,
+			"fontSize" : 1,
+            "color" : -1,
+			"hoverColor" : 14831439,
+            "alignment" : "center"
+		},
+		"patron5t":{
+			"text" : "$5 Patrons",
+            "posX" : -150,
+            "posY" : -100,
+			"fontSize" : 2,
+            "color" : -1,
+			"hoverColor" : 14831439,
+            "alignment" : "center"
+		},
+		"patron5":{
+			"text" : "web:http://94.23.210.224/5patrons.txt",
+            "posX" : -123,
+            "posY" : -80,
+			"fontSize" : 1,
+            "color" : -1,
+			"hoverColor" : 14831439,
+            "alignment" : "center"
+		},
+		"patron10t":{
+			"text" : "$10 Patrons",
+            "posX" : 10,
+            "posY" : -100,
+			"fontSize" : 2,
+            "color" : -1,
+			"hoverColor" : 14831439,
+            "alignment" : "center"
+		},
+		"patron10":{
+			"text" : "web:http://94.23.210.224/10patrons.txt",
+            "posX" : 50,
+            "posY" : -80,
+			"fontSize" : 1,
+            "color" : -1,
+			"hoverColor" : 14831439,
+            "alignment" : "center"
+		},
+		"patron20t":{
+			"text" : "$20 Patrons",
+            "posX" : 170,
+            "posY" : -100,
+			"fontSize" : 2,
+            "color" : -1,
+			"hoverColor" : 13158400,
+            "alignment" : "center"
+		},
+		"patron20":{
+			"text" : "web:http://94.23.210.224/20patrons.txt",
+            "posX" : 210,
+            "posY" : -80,
+			"fontSize" : 1,
+            "color" : -1,
+			"hoverColor" : 13158400,
+            "alignment" : "center"
+		},
+		"Thankyou":{
+			"text" : "Thank you to all our patrons you're amazing! <3",
+            "posX" : -245,
+            "posY" : -250,
+			"fontSize" : 2,
+            "color" : -1,
+			"hoverColor" : 13158400,
+            "alignment" : "center"
+		}
+    },
+    
+    "other":
+    {
+		"background":
+		{
+			"image" : "mainmenu:background2.png",
+			"mode" : "fill"
+		}
+    }
+}
